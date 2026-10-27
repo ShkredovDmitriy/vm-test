@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e7e7e7" />
+    <title>Профиль — VMERU</title>
+    <meta
+      name="description"
+      content="Настройки профиля и список покупок VMERU."
+    />
+    
+    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+  </head>
+  <body>
+    <main class="main">
+      
+<header class="main-header">
+  <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+    <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+      <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
+      </div>
+      <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
+      </div>
+      <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div>
+    </nav>
+    <div class="main-header__actions">
+      <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
+    </div>
+  </div>
+</header>
+<div class="header-cart" id="header-cart" hidden="hidden">
+  <button class="header-cart__backdrop" type="button" aria-label="Закрыть корзину"></button>
+  <aside class="header-cart__panel" role="dialog" aria-modal="true" aria-labelledby="header-cart-title">
+    <div class="header-cart__rail" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="header-cart__top">
+      <h2 id="header-cart-title">КОРЗИНА <small class="header-cart__title-count">0</small></h2>
+      <button class="header-cart__close" type="button" aria-label="Закрыть корзину">×</button>
+    </div>
+    <div class="header-cart__items"></div>
+    <div class="header-cart__summary">
+      <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+        <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+      </div>
+    </div>
+  </aside>
+</div>
+      
+<section class="account-shell account-profile" aria-labelledby="account-profile-title">
+  <aside class="account-shell__sidebar" aria-label="Навигация личного кабинета">
+    <div class="account-shell__rail" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p class="account-shell__sidebar-title">МОЕ ПРОСТРАНСТВО</p>
+    <nav class="account-shell__menu"><a class="account-shell__menu-link" href="./account.html">ГЛАВНАЯ</a><a class="account-shell__menu-link is-active" href="./account-profile.html" aria-current="page">ПРОФИЛЬ</a></nav>
+    <button class="account-shell__logout" type="button"><span class="account-shell__logout-icon" aria-hidden="true"></span>ВЫЙТИ</button>
+  </aside>
+  <div class="account-shell__content account-profile__content">
+    <h1 id="account-profile-title">ДОБРО ПОЖАЛОВАТЬ, АЛЕКСАНДРА</h1>
+    <div class="account-profile__settings">
+      <form class="account-profile__card account-profile__card--main">
+        <div class="account-profile__marker" aria-hidden="true"></div>
+        <h2>НАСТРОЙКИ ПРОФИЛЯ</h2>
+        <div class="account-profile__body">
+          <p class="account-profile__label">АВАТАР</p>
+          <label class="account-profile__avatar">
+            <input type="file" accept="image/*"/><span class="account-profile__avatar-placeholder" aria-hidden="true"><img src="./images/header-account.svg" alt=""/></span><span>добавить фото</span>
+          </label>
+          <label class="account-profile__field"><span class="visually-hidden">Имя и фамилия</span>
+            <input type="text" placeholder="Имя и фамилия*" autocomplete="name"/>
+          </label>
+          <label class="account-profile__field"><span class="visually-hidden">Email адрес</span>
+            <input type="email" placeholder="Email адрес*" autocomplete="email"/>
+          </label>
+          <label class="account-profile__field account-profile__field--short"><span class="visually-hidden">Телефон</span>
+            <input type="tel" placeholder="Телефон*" autocomplete="tel"/>
+          </label>
+          <label class="account-profile__field"><span class="visually-hidden">Город</span>
+            <input type="text" placeholder="Город" autocomplete="address-level2"/>
+          </label>
+          <div class="account-profile__selects">
+            <label class="account-profile__field"><span class="visually-hidden">Способ связи</span>
+              <select>
+                <option>Способ связи*</option>
+                <option>Telegram</option>
+                <option>Телефон</option>
+                <option>Email</option>
+              </select>
+            </label>
+            <label class="account-profile__field"><span class="visually-hidden">Интересующие материалы</span>
+              <select>
+                <option>Хочу получать</option>
+                <option>Новости</option>
+                <option>Материалы</option>
+                <option>Анонсы</option>
+              </select>
+            </label>
+          </div>
+          <button class="account-profile__save" type="button"><span>СОХРАНИТЬ</span><span class="account-profile__save-arrow"><img src="./images/arrow-to-right-white.svg" alt=""/></span></button>
+        </div>
+      </form>
+      <div class="account-profile__security">
+        <form class="account-profile__card">
+          <div class="account-profile__marker" aria-hidden="true"></div>
+          <h2>ИЗМЕНИТЬ EMAIL</h2>
+          <div class="account-profile__body">
+            <label class="account-profile__field"><span>НОВЫЙ EMAIL АДРЕС</span>
+              <input type="email" autocomplete="email"/>
+            </label>
+            <button class="account-profile__save" type="button"><span>СОХРАНИТЬ</span><span class="account-profile__save-arrow"><img src="./images/arrow-to-right-white.svg" alt=""/></span></button>
+          </div>
+        </form>
+        <form class="account-profile__card">
+          <div class="account-profile__marker" aria-hidden="true"></div>
+          <h2>СМЕНА ПАРОЛЯ</h2>
+          <div class="account-profile__body">
+            <label class="account-profile__field"><span>НОВЫЙ ПАРОЛЬ</span>
+              <input type="password" autocomplete="new-password"/>
+            </label>
+            <button class="account-profile__save" type="button"><span>СОХРАНИТЬ</span><span class="account-profile__save-arrow"><img src="./images/arrow-to-right-white.svg" alt=""/></span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section class="account-purchases" aria-labelledby="account-purchases-title">
+      <h2 id="account-purchases-title">СПИСОК ПОКУПОК</h2>
+      <div class="account-purchases__table-wrap">
+        <table class="account-purchases__table">
+          <thead>
+            <tr>
+              <th>НАИМЕНОВАНИЕ</th>
+              <th>ДАТА</th>
+              <th>ЦЕНА</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>НАКЛЕЙКИ VMERU ЦИТАТЫ</td>
+              <td>11.07.2026</td>
+              <td>10$</td>
+            </tr>
+            <tr>
+              <td>НАКЛЕЙКИ VMERU ЦИТАТЫ</td>
+              <td>11.07.2026</td>
+              <td>10$</td>
+            </tr>
+            <tr>
+              <td>НАКЛЕЙКИ VMERU ЦИТАТЫ</td>
+              <td>11.07.2026</td>
+              <td>10$</td>
+            </tr>
+            <tr>
+              <td>НАКЛЕЙКИ VMERU ЦИТАТЫ</td>
+              <td>11.07.2026</td>
+              <td>10$</td>
+            </tr>
+            <tr>
+              <td>НАКЛЕЙКИ VMERU ЦИТАТЫ</td>
+              <td>11.07.2026</td>
+              <td>10$</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</section>
+    </main>
+    <script defer src="./assets/main-CwSDtOW_.js"></script>
+  </body>
+</html>

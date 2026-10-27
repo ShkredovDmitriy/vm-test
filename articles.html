@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#b6a28f" />
+    <title>Статьи — VMERU</title>
+    <meta
+      name="description"
+      content="Статьи VMERU о питании, теле, сне, ритме и образе жизни."
+    />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+  </head>
+  <body>
+    <main class="main">
+      
+<header class="main-header">
+  <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+    <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+      <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
+      </div>
+      <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
+      </div>
+      <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div>
+    </nav>
+    <div class="main-header__actions">
+      <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
+    </div>
+  </div>
+</header>
+<div class="header-cart" id="header-cart" hidden="hidden">
+  <button class="header-cart__backdrop" type="button" aria-label="Закрыть корзину"></button>
+  <aside class="header-cart__panel" role="dialog" aria-modal="true" aria-labelledby="header-cart-title">
+    <div class="header-cart__rail" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="header-cart__top">
+      <h2 id="header-cart-title">КОРЗИНА <small class="header-cart__title-count">0</small></h2>
+      <button class="header-cart__close" type="button" aria-label="Закрыть корзину">×</button>
+    </div>
+    <div class="header-cart__items"></div>
+    <div class="header-cart__summary">
+      <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+        <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+      </div>
+    </div>
+  </aside>
+</div>
+      
+<section class="articles" aria-labelledby="articles-title">
+  <div class="articles__top">
+    <nav class="articles__categories" aria-label="Категории статей">
+      <button class="is-active" type="button" data-category="all" aria-pressed="true">ВСЕ СТАТЬИ</button>
+      <button type="button" data-category="nutrition" aria-pressed="false">ПИТАНИЕ</button>
+      <button type="button" data-category="gut" aria-pressed="false">ЖКТ</button>
+      <button type="button" data-category="hormones" aria-pressed="false">ГОРМОНЫ</button>
+      <button type="button" data-category="sleep" aria-pressed="false">СОН</button>
+      <button type="button" data-category="body" aria-pressed="false">ТЕЛО</button>
+      <button type="button" data-category="lifestyle" aria-pressed="false">ОБРАЗ ЖИЗНИ</button>
+      <button type="button" data-category="routine" aria-pressed="false">РЕЖИМ</button>
+    </nav>
+    <label class="articles__search"><span class="visually-hidden">Поиск по статьям</span><span class="articles__search-icon" aria-hidden="true"></span>
+      <input type="search" placeholder="" autocomplete="off"/>
+    </label>
+  </div>
+  <div class="articles__toolbar">
+    <div class="articles__menu-wrap">
+      <button class="articles__menu-trigger" type="button" aria-expanded="false" aria-controls="articles-filter-menu">ФИЛЬТРЫ <span class="articles__filter-icon" aria-hidden="true"></span></button>
+      <div class="articles__menu" id="articles-filter-menu" hidden="hidden">
+        <button type="button" data-filter="all" aria-pressed="true">ВСЕ</button>
+        <button type="button" data-filter="protein" aria-pressed="false">БЕЛОК</button>
+        <button type="button" data-filter="routine" aria-pressed="false">РЕЖИМ</button>
+        <button type="button" data-filter="menu" aria-pressed="false">МЕНЮ</button>
+      </div>
+    </div>
+    <div class="articles__menu-wrap articles__menu-wrap--sort">
+      <button class="articles__menu-trigger" type="button" aria-expanded="false" aria-controls="articles-sort-menu">СОРТИРОВАТЬ ПО <span aria-hidden="true">⌄</span></button>
+      <div class="articles__menu" id="articles-sort-menu" hidden="hidden">
+        <button type="button" data-sort="new">СНАЧАЛА НОВЫЕ</button>
+        <button type="button" data-sort="popular">СНАЧАЛА ПОПУЛЯРНЫЕ</button>
+      </div>
+    </div>
+  </div>
+  <div class="articles__content">
+    <h1 class="articles__heading" id="articles-title">СТАТЬИ <span class="articles__count">(12 материалов)</span></h1>
+    <div class="articles__grid">
+            <article class="articles-card" data-category="body" data-tags="routine" data-date="2026-10-24" data-popularity="55" data-id="edema-1">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">ЧЕК-ЛИСТ 10 ПРИЧИН ОТЁКОВ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/instruments-image-1.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Отёки — это не просто эстетический вопрос, а сигнал о внутренних процессах организма. В этом чек-листе...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="nutrition" data-tags="protein" data-date="2026-10-23" data-popularity="95" data-id="macros-1">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">ГИД ПО БЕЛКАМ, ЖИРАМ И УГЛЕВОДАМ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-01.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">5 главных групп продуктов, из которых легко собрать сытный рацион без подсчёта калорий.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="nutrition" data-tags="menu" data-date="2026-10-22" data-popularity="70" data-id="menu-1">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">КОНСТРУКТОР МЕНЮ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-02.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Эта статья — удобный конструктор. Он поможет тебе легко создавать сытный, сбалансированный рацион, сохраняя твой личный ритм и свободу выбора.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="body" data-tags="routine" data-date="2026-10-21" data-popularity="82" data-id="edema-2">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">ЧЕК-ЛИСТ 10 ПРИЧИН ОТЁКОВ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-03.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Отёки — это не просто эстетический вопрос, а сигнал о внутренних процессах организма. В этом чек-листе...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="gut" data-tags="protein" data-date="2026-10-20" data-popularity="65" data-id="gut-1">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">МИНИ-ГАЙД ПО ЖКТ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/format-image-2.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Состояние пищеварения влияет не только на ЖКТ, но и на уровень энергии, кожу, настроение и общее самочувствие...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="nutrition" data-tags="menu" data-date="2026-10-19" data-popularity="88" data-id="menu-2">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">3-ДНЕВНОЕ МЕНЮ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-02.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Простое и сбалансированное меню, созданное для мягкой поддержки организма, восстановления энергии и...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="body" data-tags="routine" data-date="2026-10-18" data-popularity="40" data-id="edema-3">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">ЧЕК-ЛИСТ 10 ПРИЧИН ОТЁКОВ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-03.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Отёки — это не просто эстетический вопрос, а сигнал о внутренних процессах организма. В этом чек-листе...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="gut" data-tags="protein" data-date="2026-10-17" data-popularity="99" data-id="gut-2">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">МИНИ-ГАЙД ПО ЖКТ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/format-image-2.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Состояние пищеварения влияет не только на ЖКТ, но и на уровень энергии, кожу, настроение и общее самочувствие...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="nutrition" data-tags="menu" data-date="2026-10-16" data-popularity="60" data-id="menu-3">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">3-ДНЕВНОЕ МЕНЮ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-02.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Простое и сбалансированное меню, созданное для мягкой поддержки организма, восстановления энергии и...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="nutrition" data-tags="menu" data-date="2026-10-15" data-popularity="72" data-id="menu-4">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">КОНСТРУКТОР МЕНЮ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-02.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Идеи для ежедневного меню с опорой на твой ритм и привычки.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="nutrition" data-tags="protein" data-date="2026-10-14" data-popularity="90" data-id="macros-2">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">ГИД ПО БЕЛКАМ, ЖИРАМ И УГЛЕВОДАМ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/articles-poster-01.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Как сочетать продукты и собирать сбалансированные приёмы пищи.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="articles-card" data-category="gut" data-tags="routine" data-date="2026-10-13" data-popularity="45" data-id="gut-3">
+              <div class="articles-card__heading">
+                <h2><a href="./article.html">МИНИ-ГАЙД ПО ЖКТ</a></h2>
+                <button class="articles-card__bookmark" type="button" aria-label="Сохранить статью" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+              </div><img class="articles-card__image" src="./images/format-image-2.jpg" alt="" loading="lazy"/>
+              <p class="articles-card__description">Небольшой гид по привычкам, которые поддерживают комфортное пищеварение.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+    </div>
+    <p class="articles__empty" hidden="hidden">По этому запросу статьи не найдены.</p>
+    <button class="articles__more" type="button">ЗАГРУЗИТЬ ЕЩЁ</button>
+  </div>
+</section>
+      
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__top">
+      <div class="footer__contact">
+        <p class="footer__label">СВЯЗАТЬСЯ С НАМИ</p>
+        <form class="footer__form" action="#" method="post">
+          <label class="visually-hidden" for="footer-email">Email</label>
+          <input id="footer-email" type="email" name="email" placeholder="Email" required="required"/>
+          <button type="submit" aria-label="Отправить email"><img src="./images/footer-arrow-right.svg" alt=""/></button>
+        </form>
+        <div class="footer__socials"><a class="footer__social-label" href="#">МЫ В СОЦСЕТЯХ<img src="./images/footer-arrow-right.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
+      </div><img class="footer__slogan" src="./images/footer-slogon.svg" alt="Начни из той точки, где ты сейчас. Сделай первый шаг"/>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <div class="footer__nav-group">
+          <p class="footer__label">НАВИГАЦИЯ</p><a href="./">ГЛАВНАЯ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a><a href="./bloknot.html">БЛОКНОТ</a><a href="./about.html">ОБО МНЕ</a><a href="./shop.html">МАГАЗИН</a><a href="./services.html">УСЛУГИ</a>
+        </div>
+        <div class="footer__nav-group">
+          <p class="footer__label">ПОДДЕРЖКА</p><a href="#">СООБЩЕСТВО</a><a href="./faq.html">FAQ</a><a href="./contacts.html">КОНТАКТЫ</a><a href="#">ОПЛАТА И ДОСТАВКА</a><a href="#">СОТРУДНИЧЕСТВО</a>
+        </div>
+      </nav>
+    </div><img class="footer__logo" src="./images/footer-logo.svg" alt="VMERU"/>
+    <div class="footer__bottom"><span>© 2026 VMERU. Все права защищены.</span><span>Информация на сайте не является медицинской рекомендацией.</span><a href="#">Политика конфиденциальности</a></div>
+  </div>
+</footer>
+    </main>
+
+    <script defer src="./assets/main-CwSDtOW_.js"></script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Магазин — VMERU</title>
+    <meta
+      name="description"
+      content="Блокноты, планировщики и инструменты VMERU для ежедневной работы с собой."
+    />
+    
+    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+  </head>
+  <body class="page-shop">
+    <main class="main">
+      
+<header class="main-header">
+  <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+    <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+      <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
+      </div>
+      <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
+      </div>
+      <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div>
+    </nav>
+    <div class="main-header__actions">
+      <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
+    </div>
+  </div>
+</header>
+<div class="header-cart" id="header-cart" hidden="hidden">
+  <button class="header-cart__backdrop" type="button" aria-label="Закрыть корзину"></button>
+  <aside class="header-cart__panel" role="dialog" aria-modal="true" aria-labelledby="header-cart-title">
+    <div class="header-cart__rail" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="header-cart__top">
+      <h2 id="header-cart-title">КОРЗИНА <small class="header-cart__title-count">0</small></h2>
+      <button class="header-cart__close" type="button" aria-label="Закрыть корзину">×</button>
+    </div>
+    <div class="header-cart__items"></div>
+    <div class="header-cart__summary">
+      <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+        <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+      </div>
+    </div>
+  </aside>
+</div>
+      
+<section class="shop" aria-labelledby="shop-title">
+  <div class="shop__intro">
+    <h1 id="shop-title">БЛОКНОТ</h1>
+    <p>Глубокая междисциплинарная работа на стыке health-коучинга, клинической нутрициологии и психологии. Этот формат разработан для тех, кто хочет «пересобрать» свою рутину, выйти из состояния хронической усталости, бережно восстановить ресурс.</p>
+    <nav class="shop__categories" aria-label="Категории товаров">
+      <button class="is-active" type="button" data-shop-category="all" aria-pressed="true">ВСЕ ПРОДУКТЫ</button>
+      <button type="button" data-shop-category="new" aria-pressed="false">НОВИНКИ</button>
+      <button type="button" data-shop-category="covers" aria-pressed="false">ОБЛОЖКИ</button>
+      <button type="button" data-shop-category="base" aria-pressed="false">ОСНОВА</button>
+      <button type="button" data-shop-category="personal" aria-pressed="false">ПЕРСОНАЛИЗИРУЙ</button>
+      <button type="button" data-shop-category="accessories" aria-pressed="false">АКСЕССУАРЫ</button>
+      <button type="button" data-shop-category="sets" aria-pressed="false">ГОТОВЫЕ ПОДБОРКИ</button>
+    </nav>
+  </div>
+  <div class="shop__toolbar">
+    <div class="shop__menu-wrap">
+      <button class="shop__menu-trigger" type="button" aria-expanded="false" aria-controls="shop-filter-menu">ФИЛЬТР <span class="shop__filter-icon" aria-hidden="true"></span></button>
+      <div class="shop__menu" id="shop-filter-menu" hidden="hidden">
+        <button type="button" data-shop-filter="all" aria-pressed="true">ВСЕ ПРОДУКТЫ</button>
+        <button type="button" data-shop-filter="new" aria-pressed="false">НОВИНКИ</button>
+        <button type="button" data-shop-filter="covers" aria-pressed="false">ОБЛОЖКИ</button>
+        <button type="button" data-shop-filter="base" aria-pressed="false">ОСНОВА</button>
+        <button type="button" data-shop-filter="personal" aria-pressed="false">ПЕРСОНАЛИЗИРУЙ</button>
+        <button type="button" data-shop-filter="accessories" aria-pressed="false">АКСЕССУАРЫ</button>
+        <button type="button" data-shop-filter="sets" aria-pressed="false">ГОТОВЫЕ ПОДБОРКИ</button>
+      </div>
+    </div><span class="shop__toolbar-count">8 продуктов</span>
+    <div class="shop__menu-wrap shop__menu-wrap--sort">
+      <button class="shop__menu-trigger" type="button" aria-expanded="false" aria-controls="shop-sort-menu">СОРТИРОВАТЬ ПО <span aria-hidden="true">×</span></button>
+      <div class="shop__menu" id="shop-sort-menu" hidden="hidden">
+        <button type="button" data-shop-sort="new" aria-pressed="true">СНАЧАЛА НОВЫЕ</button>
+        <button type="button" data-shop-sort="popular" aria-pressed="false">СНАЧАЛА ПОПУЛЯРНЫЕ</button>
+      </div>
+    </div>
+  </div>
+  <div class="shop__section">
+    <h2 class="shop__heading">ВСЕ ТОВАРЫ <span class="shop__count">(8 продуктов)</span></h2>
+    <div class="shop__grid">
+        <article class="shop-product" data-shop-category="accessories" data-shop-id="stickers" data-shop-order="12" data-shop-popularity="75" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-01.jpg" alt="НАКЛЕЙКИ VMERU ЦИТАТЫ" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить НАКЛЕЙКИ VMERU ЦИТАТЫ в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>НАКЛЕЙКИ VMERU ЦИТАТЫ</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить НАКЛЕЙКИ VMERU ЦИТАТЫ" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="goals" data-shop-order="11" data-shop-popularity="90" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-02.jpg" alt="ПЛАНИРОВЩИК ЦЕЛЕЙ" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК ЦЕЛЕЙ в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК ЦЕЛЕЙ</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК ЦЕЛЕЙ" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="month-a" data-shop-order="10" data-shop-popularity="68" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-03.jpg" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК МЕСЯЦА в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="month-b" data-shop-order="9" data-shop-popularity="82" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/constructor-month-b.png" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК МЕСЯЦА в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="accessories" data-shop-id="stickers" data-shop-order="8" data-shop-popularity="75" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-01.jpg" alt="НАКЛЕЙКИ VMERU ЦИТАТЫ" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить НАКЛЕЙКИ VMERU ЦИТАТЫ в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>НАКЛЕЙКИ VMERU ЦИТАТЫ</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить НАКЛЕЙКИ VMERU ЦИТАТЫ" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="goals" data-shop-order="7" data-shop-popularity="90" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-02.jpg" alt="ПЛАНИРОВЩИК ЦЕЛЕЙ" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК ЦЕЛЕЙ в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК ЦЕЛЕЙ</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК ЦЕЛЕЙ" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="month-a" data-shop-order="6" data-shop-popularity="68" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-03.jpg" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК МЕСЯЦА в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="month-b" data-shop-order="5" data-shop-popularity="82" data-shop-new="false">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/constructor-month-b.png" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК МЕСЯЦА в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+    </div>
+    <p class="shop__empty" hidden="hidden">В этой категории пока нет товаров.</p>
+    <button class="shop__more" type="button">ЗАГРУЗИТЬ ЕЩЁ</button>
+  </div>
+  <div class="shop__section shop__section--new">
+    <h2 class="shop__heading">НОВИНКИ <span>(4 продукта)</span></h2>
+    <div class="shop__new-grid">
+        <article class="shop-product" data-shop-category="accessories" data-shop-id="stickers" data-shop-order="4" data-shop-popularity="75" data-shop-new="true">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-01.jpg" alt="НАКЛЕЙКИ VMERU ЦИТАТЫ" loading="lazy"/><span class="shop-product__badge">new</span>
+            <button class="shop-product__add" type="button" aria-label="Добавить НАКЛЕЙКИ VMERU ЦИТАТЫ в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>НАКЛЕЙКИ VMERU ЦИТАТЫ</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить НАКЛЕЙКИ VMERU ЦИТАТЫ" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="goals" data-shop-order="3" data-shop-popularity="90" data-shop-new="true">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-02.jpg" alt="ПЛАНИРОВЩИК ЦЕЛЕЙ" loading="lazy"/><span class="shop-product__badge">new</span>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК ЦЕЛЕЙ в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК ЦЕЛЕЙ</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК ЦЕЛЕЙ" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="month-a" data-shop-order="2" data-shop-popularity="68" data-shop-new="true">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/shop-poster-03.jpg" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/><span class="shop-product__badge">new</span>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК МЕСЯЦА в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+        <article class="shop-product" data-shop-category="base" data-shop-id="month-b" data-shop-order="1" data-shop-popularity="82" data-shop-new="true">
+          <div class="shop-product__visual"><img class="shop-product__image" src="./images/constructor-month-b.png" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/><span class="shop-product__badge">new</span>
+            <button class="shop-product__add" type="button" aria-label="Добавить ПЛАНИРОВЩИК МЕСЯЦА в корзину" title="Добавить в корзину"><img src="./images/constructor-plus.svg" alt=""/></button>
+          </div>
+          <div class="shop-product__details">
+            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <button class="shop-product__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false" title="Сохранить"><img src="./images/constructor-bookmark.svg" alt=""/></button>
+            <p>A5</p>
+            <p>Доступны 3 цвета</p><strong>10 $</strong>
+          </div>
+        </article>
+    </div>
+  </div>
+  <p class="shop__status visually-hidden" aria-live="polite"></p>
+</section>
+      
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__top">
+      <div class="footer__contact">
+        <p class="footer__label">СВЯЗАТЬСЯ С НАМИ</p>
+        <form class="footer__form" action="#" method="post">
+          <label class="visually-hidden" for="footer-email">Email</label>
+          <input id="footer-email" type="email" name="email" placeholder="Email" required="required"/>
+          <button type="submit" aria-label="Отправить email"><img src="./images/footer-arrow-right.svg" alt=""/></button>
+        </form>
+        <div class="footer__socials"><a class="footer__social-label" href="#">МЫ В СОЦСЕТЯХ<img src="./images/footer-arrow-right.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
+      </div><img class="footer__slogan" src="./images/footer-slogon.svg" alt="Начни из той точки, где ты сейчас. Сделай первый шаг"/>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <div class="footer__nav-group">
+          <p class="footer__label">НАВИГАЦИЯ</p><a href="./">ГЛАВНАЯ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a><a href="./bloknot.html">БЛОКНОТ</a><a href="./about.html">ОБО МНЕ</a><a href="./shop.html">МАГАЗИН</a><a href="./services.html">УСЛУГИ</a>
+        </div>
+        <div class="footer__nav-group">
+          <p class="footer__label">ПОДДЕРЖКА</p><a href="#">СООБЩЕСТВО</a><a href="./faq.html">FAQ</a><a href="./contacts.html">КОНТАКТЫ</a><a href="#">ОПЛАТА И ДОСТАВКА</a><a href="#">СОТРУДНИЧЕСТВО</a>
+        </div>
+      </nav>
+    </div><img class="footer__logo" src="./images/footer-logo.svg" alt="VMERU"/>
+    <div class="footer__bottom"><span>© 2026 VMERU. Все права защищены.</span><span>Информация на сайте не является медицинской рекомендацией.</span><a href="#">Политика конфиденциальности</a></div>
+  </div>
+</footer>
+    </main>
+    <script defer src="./assets/main-CwSDtOW_.js"></script>
+  </body>
+</html>
