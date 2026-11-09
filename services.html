@@ -11,7 +11,7 @@
       content="Индивидуальные и групповые форматы работы по методу VMERU. Начните с бесплатной сессии-знакомства."
     />
     
-    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+    <link rel="stylesheet" href="./assets/main-D2vPtxFg.css">
   </head>
   <body>
     <main class="main">
@@ -19,16 +19,26 @@
 <header class="main-header">
   <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
     <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
-    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация">
+      <div class="main-header__mobile-top">
+        <button class="main-header__mobile-close" type="button" aria-label="Закрыть меню"></button><a class="main-header__mobile-brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+      </div><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
       <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Блокнот" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Магазин" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Услуги" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div><a href="./club.html">КЛУБ</a>
+      <div class="main-header__mobile-support">
+        <p>ПОДДЕРЖКА</p><a href="./club.html">СООБЩЕСТВО</a><a href="./faq.html">FAQ</a><a href="./contacts.html">КОНТАКТЫ</a><a href="#">ОПЛАТА И ДОСТАВКА</a><a href="#">СОТРУДНИЧЕСТВО</a><a href="./cart.html">КОРЗИНА</a>
       </div>
+      <div class="main-header__mobile-socials"><a class="main-header__social-label" href="#"><span>МЫ В СОЦСЕТЯХ</span><span class="main-header__social-arrow">→</span></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a></div>
     </nav>
     <div class="main-header__actions">
       <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
@@ -47,7 +57,7 @@
     <div class="header-cart__items"></div>
     <div class="header-cart__summary">
       <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
-      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./cart.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
         <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
       </div>
     </div>
@@ -55,9 +65,10 @@
 </div>
       
 <section class="services-intro" aria-labelledby="services-title">
-  <h1 class="services-intro__title" id="services-title">ФОРМАТЫ РАБОТЫ</h1>
+  <h1 class="services-intro__title" id="services-title">ФОРМАТЫ<br class="services-intro__mobile-break"> РАБОТЫ</h1>
   <p class="services-intro__subtitle">Индивидуальные и групповые<br>форматы работы по методу VMERU</p>
-  <p class="services-intro__quote">У каждого свой запрос, свой ритм и подходящая глубина работы. Выбирай формат, который подходит именно тебе</p>
+  <p class="services-intro__quote services-intro__quote--desktop">У каждого свой запрос, свой ритм и подходящая глубина работы. Выбирай формат, который подходит именно тебе</p>
+  <p class="services-intro__quote services-intro__quote--mobile">Выбирай то — что подходит именно тебе</p>
 </section>
 <section class="services-meeting" aria-labelledby="services-meeting-title">
   <div class="services-meeting__copy">
@@ -72,7 +83,7 @@
   <div class="services-meeting__note">
     <div class="services-meeting__holes" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
-    <h3>ЭТА ВСТРЕЧА ПОДОЙДЕТ ТЕБЕ,<br>ЕСЛИ ТЫ ХОЧЕШЬ:</h3>
+    <h3>ЭТА ВСТРЕЧА ПОДОЙДЕТ ТЕБЕ, ЕСЛИ ТЫ&nbsp;ХОЧЕШЬ:</h3>
     <ul>
       <li>познакомиться лично и понять, насколько тебе подходит мой метод работы</li>
       <li>понять, находится ли твой запрос в рамках моих профессиональных компетенций</li>
@@ -82,33 +93,6 @@
     </ul>
     <button class="services-meeting__action" type="button" data-request-modal-open="data-request-modal-open"><span>ОСТАВИТЬ ЗАЯВКУ</span><span class="services-meeting__action-arrow"><img src="./images/arrow-to-right-white.svg" alt=""/></span></button>
   </div>
-</section>
-      
-<section class="services-group" aria-labelledby="services-group-title">
-  <div class="services-group__intro">
-    <div class="services-group__copy">
-      <h2 id="services-group-title">ГРУППОВЫЕ<br>ПРОГРАММЫ</h2>
-      <p>Тематические программы VMERU для работы в группе, по разработанной структуре. Каждая программа объединяет знания, практические инструменты и методику интеграции изменений в повседневную жизнь.</p>
-    </div>
-    <p class="services-group__quote">Сопровождение — это когда у тебя есть понятный маршрут и человек рядом, который помогает двигаться по нему. И забота о себе постепенно становится естественной частью жизни</p>
-  </div>
-  <div class="services-group__cards">
-        <article class="format-card">
-          <h3 class="format-card__title">УСТОЙЧИВЫЙ РИТМ
-          </h3><img class="format-card__image" src="./images/group-01.jpg" alt="" loading="lazy"/>
-          <p class="format-card__description">Настрой режим сна, активности и отдыха под свой образ жизни</p><a class="format-card__action" href="./shop.html"><span>ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
-        <article class="format-card">
-          <h3 class="format-card__title">ПИТАНИЕ<br/>НА КАЖДЫЙ ДЕНЬ
-          </h3><img class="format-card__image" src="./images/group-02.jpg" alt="" loading="lazy"/>
-          <p class="format-card__description">Собери понятную систему питания, которую легко поддерживать каждый день</p><a class="format-card__action" href="./shop.html"><span>ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
-        <article class="format-card">
-          <h3 class="format-card__title">ТЕЛО В БАЛАНСЕ
-          </h3><img class="format-card__image" src="./images/group-03.jpg" alt="" loading="lazy"/>
-          <p class="format-card__description">Движение, дыхание и телесные практики для поддержания мобильности и расслабления</p><a class="format-card__action" href="./shop.html"><span>ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
-  </div><a class="services-group__catalog" href="./shop.html"><span>ПЕРЕЙТИ В КАТАЛОГ ПРОГРАММ</span><span class="services-group__catalog-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
 </section>
       
 <section class="services-individual" aria-labelledby="services-individual-title">
@@ -151,9 +135,43 @@
   <button class="services-individual__action" type="button" data-request-modal-open="data-request-modal-open"><span>ОСТАВИТЬ ЗАЯВКУ</span><span class="services-individual__action-arrow"><img src="./images/arrow-to-right-white.svg" alt=""/></span></button>
 </section>
       
+<section class="services-group" aria-labelledby="services-group-title">
+  <div class="services-group__intro">
+    <div class="services-group__copy">
+      <h2 id="services-group-title">ГРУППОВЫЕ ПРОГРАММЫ</h2>
+      <p>Тематические программы VMERU для работы в группе, по разработанной структуре. Каждая программа объединяет знания, практические инструменты и методику интеграции изменений в повседневную жизнь.</p>
+    </div>
+  </div>
+  <div class="services-group__cards swiper">
+    <div class="services-group__track swiper-wrapper">
+        <article class="format-card swiper-slide">
+          <h3 class="format-card__title">УСТОЙЧИВЫЙ<br class="services-group__mobile-break"/>РИТМ
+          </h3><img class="format-card__image" src="./images/group-01.jpg" alt="" loading="lazy"/>
+          <p class="format-card__description">Настрой режим сна, активности и отдыха под свой образ жизни</p><a class="format-card__action" href="./shop.html"><span>ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+        </article>
+        <article class="format-card swiper-slide">
+          <h3 class="format-card__title">ПИТАНИЕ<br/>НА КАЖДЫЙ ДЕНЬ
+          </h3><img class="format-card__image" src="./images/group-02.jpg" alt="" loading="lazy"/>
+          <p class="format-card__description">Собери понятную систему питания, которую легко поддерживать каждый день</p><a class="format-card__action" href="./shop.html"><span>ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+        </article>
+        <article class="format-card swiper-slide">
+          <h3 class="format-card__title">ТЕЛО В БАЛАНСЕ
+          </h3><img class="format-card__image" src="./images/group-03.jpg" alt="" loading="lazy"/>
+          <p class="format-card__description">Движение, дыхание и телесные практики для поддержания мобильности и расслабления</p><a class="format-card__action" href="./shop.html"><span>ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+        </article>
+    </div>
+  </div>
+  <div class="services-group__controls">
+    <button class="services-group__previous" type="button" aria-label="Предыдущая программа"><img src="./images/system-arrow.svg" alt=""/></button><span class="services-group__hint">листай дальше</span>
+    <button class="services-group__next" type="button" aria-label="Следующая программа"><img src="./images/system-arrow.svg" alt=""/></button>
+  </div>
+  <div class="services-group__pagination" aria-label="Страницы программ"></div><a class="services-group__catalog" href="./shop.html"><span>ПЕРЕЙТИ В КАТАЛОГ ПРОГРАММ</span><span class="services-group__catalog-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+</section>
+      
 <section class="instruments instruments--services" aria-labelledby="services-instruments-title">
   <h2 class="instruments__title" id="services-instruments-title">ИНСТРУМЕНТЫ ДЛЯ<br>САМОСТОЯТЕЛЬНОЙ РАБОТЫ</h2>
-  <p class="instruments__intro">Знания и практики, которые помогут понять свои потребности и выстроить подходящий ритм жизни.</p>
+  <p class="instruments__intro instruments__intro--services-desktop">Знания и практики, которые помогут понять свои потребности и выстроить подходящий ритм жизни.</p>
+  <p class="instruments__intro instruments__intro--services-mobile">Ресурсы, которые помогают двигаться к здоровью через ясность и последовательность.</p>
   <div class="swiper instruments__swiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide instruments__slide">
@@ -229,7 +247,7 @@
           <input id="footer-email" type="email" name="email" placeholder="Email" required="required"/>
           <button type="submit" aria-label="Отправить email"><img src="./images/footer-arrow-right.svg" alt=""/></button>
         </form>
-        <div class="footer__socials"><a class="footer__social-label" href="#">МЫ В СОЦСЕТЯХ<img src="./images/footer-arrow-right.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
+        <div class="footer__socials"><a class="footer__social-label" href="#"><span class="footer__social-label-text">МЫ В СОЦСЕТЯХ</span><span class="footer__social-label-arrow"><img src="./images/footer-arrow-right.svg" alt=""/></span></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
       </div><img class="footer__slogan" src="./images/footer-slogon.svg" alt="Начни из той точки, где ты сейчас. Сделай первый шаг"/>
       <nav class="footer__nav" aria-label="Навигация в подвале">
         <div class="footer__nav-group">
@@ -295,6 +313,6 @@
   </div>
 </dialog>
     </main>
-    <script defer src="./assets/main-CwSDtOW_.js"></script>
+    <script defer src="./assets/main-Bl5wM9lx.js"></script>
   </body>
 </html>

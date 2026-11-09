@@ -9,7 +9,7 @@
       content="Собери свой блокнот VMERU: выбери основу и страницы под свой ритм жизни."
     />
     
-    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+    <link rel="stylesheet" href="./assets/main-D2vPtxFg.css">
   </head>
   <body>
     <main class="main">
@@ -17,16 +17,26 @@
 <header class="main-header">
   <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
     <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
-    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация">
+      <div class="main-header__mobile-top">
+        <button class="main-header__mobile-close" type="button" aria-label="Закрыть меню"></button><a class="main-header__mobile-brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+      </div><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
       <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Блокнот" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Магазин" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Услуги" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div><a href="./club.html">КЛУБ</a>
+      <div class="main-header__mobile-support">
+        <p>ПОДДЕРЖКА</p><a href="./club.html">СООБЩЕСТВО</a><a href="./faq.html">FAQ</a><a href="./contacts.html">КОНТАКТЫ</a><a href="#">ОПЛАТА И ДОСТАВКА</a><a href="#">СОТРУДНИЧЕСТВО</a><a href="./cart.html">КОРЗИНА</a>
       </div>
+      <div class="main-header__mobile-socials"><a class="main-header__social-label" href="#"><span>МЫ В СОЦСЕТЯХ</span><span class="main-header__social-arrow">→</span></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a></div>
     </nav>
     <div class="main-header__actions">
       <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
@@ -45,7 +55,7 @@
     <div class="header-cart__items"></div>
     <div class="header-cart__summary">
       <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
-      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./cart.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
         <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
       </div>
     </div>
@@ -54,7 +64,7 @@
       
 <section class="bloknot-hero" aria-labelledby="bloknot-hero-title">
   <div class="bloknot-hero__content">
-    <h1 class="bloknot-hero__title" id="bloknot-hero-title">БЛОКНОТ-КОНСТРУКТОР</h1>
+    <h1 class="bloknot-hero__title" id="bloknot-hero-title">БЛОКНОТ-КОНСТРУКТОР</h1><img class="bloknot-hero__mobile-image" src="./images/bloknot-hero-bg-mobile.jpg" alt="Открытый блокнот с карточками и заметками" loading="eager"/>
     <p class="bloknot-hero__lead">Собери систему планирования<br>под свой ритм жизни</p>
     <p class="bloknot-hero__description">Выбирай основу, добавляй<br>нужные страницы, создавай<br>блокнот, который развивается<br>вместе с тобой</p><a class="bloknot-hero__action" href="./shop.html"><span>СОБРАТЬ СВОЙ БЛОКНОТ</span><span class="bloknot-hero__action-arrow" aria-hidden="true"><img src="./images/hero-arrow.svg" alt=""/></span></a>
   </div>
@@ -113,8 +123,8 @@
         <h3>НАКЛЕЙКИ VMERU ЦИТАТЫ</h3><a class="shop-product__bookmark" href="./shop.html" aria-label="Посмотреть наклейки vmeru цитаты в магазине" title="Посмотреть в магазине"><img src="./images/constructor-bookmark.svg" alt=""/></a>
         <p>A5</p>
         <p>доступны 3 цвета</p><strong>10$</strong>
-        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span>
-        </div>
+        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span><span class="bloknot-covers__color-name">синий</span>
+        </div><a class="shop-product__add bloknot-covers__mobile-add" href="./shop.html" aria-label="Посмотреть наклейки vmeru цитаты в магазине" title="Посмотреть в магазине"><img src="./images/constructor-plus.svg" alt=""/></a>
       </div>
     </article>
     <article class="shop-product bloknot-covers__product">
@@ -123,8 +133,8 @@
         <h3>ПЛАНИРОВЩИК ЦЕЛЕЙ</h3><a class="shop-product__bookmark" href="./shop.html" aria-label="Посмотреть планировщик целей в магазине" title="Посмотреть в магазине"><img src="./images/constructor-bookmark.svg" alt=""/></a>
         <p>A5</p>
         <p>доступны 3 цвета</p><strong>10$</strong>
-        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span>
-        </div>
+        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span><span class="bloknot-covers__color-name">синий</span>
+        </div><a class="shop-product__add bloknot-covers__mobile-add" href="./shop.html" aria-label="Посмотреть планировщик целей в магазине" title="Посмотреть в магазине"><img src="./images/constructor-plus.svg" alt=""/></a>
       </div>
     </article>
     <article class="shop-product bloknot-covers__product">
@@ -133,8 +143,8 @@
         <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3><a class="shop-product__bookmark" href="./shop.html" aria-label="Посмотреть планировщик месяца в магазине" title="Посмотреть в магазине"><img src="./images/constructor-bookmark.svg" alt=""/></a>
         <p>A5</p>
         <p>доступны 3 цвета</p><strong>10$</strong>
-        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span>
-        </div>
+        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span><span class="bloknot-covers__color-name">синий</span>
+        </div><a class="shop-product__add bloknot-covers__mobile-add" href="./shop.html" aria-label="Посмотреть планировщик месяца в магазине" title="Посмотреть в магазине"><img src="./images/constructor-plus.svg" alt=""/></a>
       </div>
     </article>
     <article class="shop-product bloknot-covers__product">
@@ -143,8 +153,8 @@
         <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3><a class="shop-product__bookmark" href="./shop.html" aria-label="Посмотреть планировщик месяца в магазине" title="Посмотреть в магазине"><img src="./images/constructor-bookmark.svg" alt=""/></a>
         <p>A5</p>
         <p>доступны 3 цвета</p><strong>10$</strong>
-        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span>
-        </div>
+        <div class="bloknot-covers__swatches" aria-label="Варианты цвета"><span class="bloknot-covers__swatch bloknot-covers__swatch--graphite is-selected"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--olive"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--lilac"></span><span class="bloknot-covers__swatch bloknot-covers__swatch--coral"></span><span class="bloknot-covers__color-name">синий</span>
+        </div><a class="shop-product__add bloknot-covers__mobile-add" href="./shop.html" aria-label="Посмотреть планировщик месяца в магазине" title="Посмотреть в магазине"><img src="./images/constructor-plus.svg" alt=""/></a>
       </div>
     </article>
   </div>
@@ -177,33 +187,40 @@
       
 <section class="bloknot-personalize" aria-labelledby="bloknot-personalize-title">
   <h2 id="bloknot-personalize-title">ПЕРСОНАЛИЗИРУЙ<br>СВОЙ БЛОКНОТ</h2>
-  <div class="bloknot-personalize__grid">
-    <article class="bloknot-personalize__card">
-      <h3 class="bloknot-personalize__card-title">ПИТАНИЕ</h3>
-      <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-    </article>
-    <article class="bloknot-personalize__card">
-      <h3 class="bloknot-personalize__card-title">ТЕЛО</h3>
-      <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-    </article>
-    <article class="bloknot-personalize__card">
-      <h3 class="bloknot-personalize__card-title">СОСТОЯНИЕ</h3>
-      <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-    </article>
-    <article class="bloknot-personalize__card">
-      <h3 class="bloknot-personalize__card-title">РЕФЛЕКСИЯ</h3>
-      <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-    </article>
-    <article class="bloknot-personalize__card">
-      <h3 class="bloknot-personalize__card-title">ТРЕКЕРЫ</h3>
-      <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-    </article>
+  <div class="bloknot-personalize__swiper swiper">
+    <div class="bloknot-personalize__grid swiper-wrapper">
+      <article class="bloknot-personalize__card swiper-slide">
+        <h3 class="bloknot-personalize__card-title">ПИТАНИЕ</h3>
+        <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+      </article>
+      <article class="bloknot-personalize__card swiper-slide">
+        <h3 class="bloknot-personalize__card-title">ТЕЛО</h3>
+        <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+      </article>
+      <article class="bloknot-personalize__card swiper-slide">
+        <h3 class="bloknot-personalize__card-title">СОСТОЯНИЕ</h3>
+        <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+      </article>
+      <article class="bloknot-personalize__card swiper-slide">
+        <h3 class="bloknot-personalize__card-title">РЕФЛЕКСИЯ</h3>
+        <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+      </article>
+      <article class="bloknot-personalize__card swiper-slide">
+        <h3 class="bloknot-personalize__card-title">ТРЕКЕРЫ</h3>
+        <div class="bloknot-personalize__card-field" aria-hidden="true"></div><a class="bloknot-personalize__card-link" href="./shop.html"><span>ПЕРЕЙТИ</span><span class="bloknot-personalize__card-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+      </article>
+    </div>
+  </div>
+  <div class="bloknot-personalize__controls">
+    <button class="bloknot-personalize__prev" type="button" aria-label="Предыдущие разделы"><span aria-hidden="true">←</span></button>
+    <div class="bloknot-personalize__pagination"></div>
+    <button class="bloknot-personalize__next" type="button" aria-label="Следующие разделы"><span aria-hidden="true">→</span></button>
   </div>
 </section>
       
 <section class="bloknot-sets" aria-labelledby="bloknot-sets-title">
   <div class="bloknot-sets__intro">
-    <h2 id="bloknot-sets-title">ГОТОВЫЕ<br>ПОДБОРКИ</h2>
+    <h2 id="bloknot-sets-title">ГОТОВЫЕ ПОДБОРКИ</h2>
     <p>Для тех, кто хочет уже<br>продуманное решение</p>
   </div>
   <div class="bloknot-sets__grid">
@@ -251,7 +268,38 @@
     <h2 id="bloknot-special-title">СДЕЛАЙ ЕГО СВОИМ</h2>
     <p>Заполняй, меняй, дополняй,<br>пусть блокнот развивается<br>вместе с тобой.</p>
   </div>
-  <div class="bloknot-special__collage"><img class="bloknot-special__photo bloknot-special__photo--journal" src="./images/blocknot-special-01.jpg" alt="Открытый блокнот с персональными страницами" loading="lazy"/><img class="bloknot-special__photo bloknot-special__photo--notes" src="./images/blocknot-special-02.jpg" alt="Страницы и заметки для планирования" loading="lazy"/><img class="bloknot-special__photo bloknot-special__photo--detail-left" src="./images/blocknot-special-03.jpg" alt="Персональные заметки в блокноте" loading="lazy"/><img class="bloknot-special__photo bloknot-special__photo--detail-top" src="./images/blocknot-special-03.jpg" alt="Разворот блокнота с записями" loading="lazy"/><img class="bloknot-special__photo bloknot-special__photo--detail-right" src="./images/blocknot-special-03.jpg" alt="Идеи и планы на страницах блокнота" loading="lazy"/></div><a class="bloknot-special__action" href="./shop.html"><span>ВДОХНОВИТЬСЯ</span><span class="bloknot-special__action-arrow" aria-hidden="true"><img src="./images/system-arrow.svg" alt=""/></span></a>
+  <div class="bloknot-special__collage">
+    <div class="bloknot-special__tile bloknot-special__tile--journal">
+      <picture>
+        <source media="(max-width: 970px)" srcset="./images/blocknot-special-03.jpg"/><img src="./images/blocknot-special-01.jpg" alt="" loading="lazy"/>
+      </picture>
+    </div>
+    <div class="bloknot-special__tile bloknot-special__tile--notes-top">
+      <picture>
+        <source media="(max-width: 970px)" srcset="./images/blocknot-special-03.jpg"/><img src="./images/blocknot-special-01.jpg" alt="" loading="lazy"/>
+      </picture>
+    </div>
+    <div class="bloknot-special__tile bloknot-special__tile--notes-bottom">
+      <picture>
+        <source media="(max-width: 970px)" srcset="./images/blocknot-special-02.jpg"/><img src="./images/blocknot-special-01.jpg" alt="" loading="lazy"/>
+      </picture>
+    </div>
+    <div class="bloknot-special__tile bloknot-special__tile--spread">
+      <picture>
+        <source media="(max-width: 970px)" srcset="./images/blocknot-special-01.jpg"/><img src="./images/blocknot-special-01.jpg" alt="" loading="lazy"/>
+      </picture>
+    </div>
+    <div class="bloknot-special__tile bloknot-special__tile--detail-top">
+      <picture>
+        <source media="(max-width: 970px)" srcset="./images/blocknot-special-01.jpg"/><img src="./images/blocknot-special-01.jpg" alt="" loading="lazy"/>
+      </picture>
+    </div>
+    <div class="bloknot-special__tile bloknot-special__tile--detail-bottom">
+      <picture>
+        <source media="(max-width: 970px)" srcset="./images/blocknot-special-02.jpg"/><img src="./images/blocknot-special-01.jpg" alt="" loading="lazy"/>
+      </picture>
+    </div>
+  </div><a class="bloknot-special__action" href="./shop.html"><span>ВДОХНОВИТЬСЯ</span><span class="bloknot-special__action-arrow" aria-hidden="true"><img src="./images/system-arrow.svg" alt=""/></span></a>
 </section>
       
 <section class="bloknot-accessories" aria-labelledby="bloknot-accessories-title">
@@ -308,7 +356,7 @@
           <input id="footer-email" type="email" name="email" placeholder="Email" required="required"/>
           <button type="submit" aria-label="Отправить email"><img src="./images/footer-arrow-right.svg" alt=""/></button>
         </form>
-        <div class="footer__socials"><a class="footer__social-label" href="#">МЫ В СОЦСЕТЯХ<img src="./images/footer-arrow-right.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
+        <div class="footer__socials"><a class="footer__social-label" href="#"><span class="footer__social-label-text">МЫ В СОЦСЕТЯХ</span><span class="footer__social-label-arrow"><img src="./images/footer-arrow-right.svg" alt=""/></span></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
       </div><img class="footer__slogan" src="./images/footer-slogon.svg" alt="Начни из той точки, где ты сейчас. Сделай первый шаг"/>
       <nav class="footer__nav" aria-label="Навигация в подвале">
         <div class="footer__nav-group">
@@ -323,6 +371,6 @@
   </div>
 </footer>
     </main>
-    <script defer src="./assets/main-CwSDtOW_.js"></script>
+    <script defer src="./assets/main-Bl5wM9lx.js"></script>
   </body>
 </html>

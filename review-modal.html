@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Окно отзыва — VMERU</title>
+    
+    <link rel="stylesheet" href="./assets/main-D2vPtxFg.css">
+  </head>
+  <body>
+    <main class="review-modal-preview">
+      <button type="button" data-review-modal-open>ОСТАВИТЬ ОТЗЫВ</button>
+    </main>
+    
+<dialog class="review-modal" tabindex="-1" aria-labelledby="review-modal-title">
+  <div class="review-modal__paper">
+    <div class="review-modal__holes" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <form class="review-modal__form">
+      <h2 id="review-modal-title">ТВОЕ МНЕНИЕ<br>ВАЖНО</h2>
+      <fieldset class="review-modal__rating">
+        <legend class="visually-hidden">Оценка от одного до пяти</legend>
+        <button class="review-modal__star" type="button" data-rating="1" aria-label="1 из 5" aria-pressed="false"><img src="./images/star-0.svg" alt=""/></button>
+        <button class="review-modal__star" type="button" data-rating="2" aria-label="2 из 5" aria-pressed="false"><img src="./images/star-0.svg" alt=""/></button>
+        <button class="review-modal__star" type="button" data-rating="3" aria-label="3 из 5" aria-pressed="false"><img src="./images/star-0.svg" alt=""/></button>
+        <button class="review-modal__star" type="button" data-rating="4" aria-label="4 из 5" aria-pressed="false"><img src="./images/star-0.svg" alt=""/></button>
+        <button class="review-modal__star" type="button" data-rating="5" aria-label="5 из 5" aria-pressed="false"><img src="./images/star-0.svg" alt=""/></button>
+      </fieldset>
+      <p class="review-modal__prompt">оставь свой отзыв<br>и помоги нам стать лучше</p>
+      <label class="visually-hidden" for="review-modal-message">Текст отзыва</label>
+      <textarea class="review-modal__message" id="review-modal-message" name="message" required="required"></textarea>
+      <div class="review-modal__uploads"><span>добавить&nbsp;</span>
+        <label for="review-modal-photo">фото</label><span>&nbsp;или&nbsp;</span>
+        <label for="review-modal-video">видео</label>
+        <input id="review-modal-photo" type="file" accept="image/*" hidden="hidden"/>
+        <input id="review-modal-video" type="file" accept="video/*" hidden="hidden"/>
+      </div>
+      <p class="review-modal__file-name" aria-live="polite"></p>
+      <button class="review-modal__submit" type="submit"><span>ОСТАВИТЬ ОТЗЫВ</span><span class="review-modal__submit-arrow" aria-hidden="true"><img src="./images/arrow-to-right-white.svg" alt=""/></span></button>
+      <p class="review-modal__status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</dialog>
+    <script defer src="./assets/main-Bl5wM9lx.js"></script>
+  </body>
+</html>

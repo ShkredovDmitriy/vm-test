@@ -9,7 +9,7 @@
       content="Пример статьи VMERU о питании, ритме и внимательном отношении к себе."
     />
     
-    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+    <link rel="stylesheet" href="./assets/main-D2vPtxFg.css">
   </head>
   <body>
     <main class="main">
@@ -17,16 +17,26 @@
 <header class="main-header">
   <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
     <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
-    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация">
+      <div class="main-header__mobile-top">
+        <button class="main-header__mobile-close" type="button" aria-label="Закрыть меню"></button><a class="main-header__mobile-brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+      </div><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
       <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Блокнот" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Магазин" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Услуги" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div><a href="./club.html">КЛУБ</a>
+      <div class="main-header__mobile-support">
+        <p>ПОДДЕРЖКА</p><a href="./club.html">СООБЩЕСТВО</a><a href="./faq.html">FAQ</a><a href="./contacts.html">КОНТАКТЫ</a><a href="#">ОПЛАТА И ДОСТАВКА</a><a href="#">СОТРУДНИЧЕСТВО</a><a href="./cart.html">КОРЗИНА</a>
       </div>
+      <div class="main-header__mobile-socials"><a class="main-header__social-label" href="#"><span>МЫ В СОЦСЕТЯХ</span><span class="main-header__social-arrow">→</span></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a></div>
     </nav>
     <div class="main-header__actions">
       <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
@@ -45,7 +55,7 @@
     <div class="header-cart__items"></div>
     <div class="header-cart__summary">
       <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
-      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./cart.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
         <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
       </div>
     </div>
@@ -54,15 +64,14 @@
       
 <article class="article-page">
   <div class="article-page__intro"><a class="article-page__back" href="./articles.html" aria-label="Вернуться ко всем статьям">←</a>
-    <h1>ЧЕК-ЛИСТ<br/>10 ПРИЧИН ОТЁКОВ</h1><img class="article-page__poster" src="./images/article-poster-01.jpg" alt="Крупный план живота" fetchpriority="high"/>
+    <h1>ЧЕК-ЛИСТ<br/>10 ПРИЧИН ОТЕКОВ</h1><img class="article-page__poster" src="./images/article-poster-01.jpg" alt="Крупный план живота" fetchpriority="high"/>
   </div>
   <div class="article-page__body">
-    <h2>АРХИТЕКТУРА РАЦИОНА: КАК<br/>СОБРАТЬ ПОНЯТНУЮ СИСТЕМУ<br/>ПИТАНИЯ БЕЗ СТРОГОГО ПОДСЧЁТА</h2>
-    <p>В теме здорового образа жизни легко потеряться среди советов и чужих правил. Не стоит пытаться изменить всё сразу: гораздо полезнее собрать простой рацион, который подходит именно тебе, твоему ритму и привычкам.</p>
-    <p>Эта статья — удобный конструктор. Он поможет составлять сытный, сбалансированный рацион, сохраняя личный ритм и свободу выбора.</p>
+    <h2>АРХИТЕКТУРА РАЦИОНА: КАК<br/>СОБРАТЬ ПОНЯТНУЮ СИСТЕМУ<br/>ПИТАНИЯ И ОБРЕСТИ ОПОРУ</h2>
+    <p>В теме здорового образа жизни легко потерять контакт с собой среди громких советов и чужих правил. Но если посмотреть на рацион как на понятную систему, все становится прозрачным: питание — это твоя ежедневная опора и ресурс для насыщенной жизни.<br>Эта статья — удобный конструктор. Он поможет тебе легко создавать сытный, сбалансированный рацион, сохраняя твой личный ритм и свободу выбора.</p>
     <section class="article-page__section">
       <h3>КОНСТРУКТОР ДНЯ: РИТМ И РЕСУРС</h3>
-      <p>Чтобы сохранить ровное состояние, ясный фокус и лёгкость в теле, важно учитывать естественные ритмы организма.</p>
+      <p>Чтобы сохранять ровное состояние, ясный фокус и легкость в теле, важно учитывать естественные ритмы физиологии.</p>
       <div class="article-page__table-wrap">
         <table class="article-page__table">
           <caption>КОНСТРУКТОР ТАРЕЛКИ VMERU</caption>
@@ -75,45 +84,45 @@
           </thead>
           <tbody>
             <tr>
-              <td>Запуск энергии</td>
-              <td>Фокус и ресурс</td>
-              <td>Восстановление</td>
+              <td>(запуск энергии)</td>
+              <td>(фокус и ресурс)</td>
+              <td>(восстановление)</td>
             </tr>
             <tr>
               <td>Медленные углеводы<br/>Белок<br/>Жиры</td>
               <td>Сложные углеводы<br/>Белок<br/>Клетчатка<br/>Жиры</td>
-              <td>Лёгкий белок<br/>Клетчатка<br/>Углеводы по выбору</td>
+              <td>Легкий белок<br/>Клетчатка (овощи/зелень)<br/>Углеводы (по выбору)</td>
             </tr>
           </tbody>
         </table>
       </div>
       <h4>ЗАВТРАК: БЕРЕЖНЫЙ ЗАПУСК ДНЯ</h4>
       <ul>
-        <li>Подари организму качественный старт и сохрани устойчивое чувство сытости на несколько часов.</li>
-        <li>Сочетай медленные углеводы, белок и полезные жиры.</li>
-        <li>Найди время для спокойного завтрака без спешки.</li>
+        <li>Твоя задача: Подарить организму качественный старт и сохранить устойчивое чувство сытости на 3–4 часа.</li>
+        <li>Формула наполнения: Медленные углеводы + Белок + Полезные жиры</li>
+        <li>Мягкий ритуал: 1–2 стакана теплой воды за 20–30 минут до завтрака создают отличные условия для пробуждения ЖКТ и мягкого желчеоттока.</li>
       </ul>
       <h4>ОБЕД: РЕСУРС ДЛЯ ТВОИХ ЗАДАЧ</h4>
       <ul>
-        <li>Поддерживай активный ритм дня и внимание к своим потребностям.</li>
-        <li>Собери тарелку из сложных углеводов, белка, клетчатки и жиров.</li>
-        <li>Ориентируйся на комфортное насыщение, а не на строгие правила.</li>
+        <li>Твоя задача: Поддерживать активный ритм дня. Обед дает наполнение, оставляет ясность в голове и сохраняет физический комфорт.</li>
+        <li>Формула наполнения: Сложные углеводы + Клетчатка + Белок + Жиры</li>
+        <li>Настройка: Если хочется сохранить лёгкость после еды, обрати внимание на баланс объема и качество углеводного блока — сложные углеводы отдают энергию постепенно.</li>
       </ul>
       <h4>УЖИН: ВОССТАНОВЛЕНИЕ И ТИШИНА</h4>
       <ul>
-        <li>Помоги телу восстановиться после насыщенного дня.</li>
-        <li>Выбирай лёгкий белок, овощи и привычные продукты, которые тебе подходят.</li>
-        <li>Оставляй место гибкости: каждый день может выглядеть по-разному.</li>
+        <li>Твоя задача: Помочь телу восстановиться, мягко переключить нервную систему в режим отдыха и подготовиться к глубокому сну.</li>
+        <li>Формула наполнения: Легкий белок + Клетчатка (и сложные углеводы, если твой день был физически активным).</li>
+        <li>Фокус внимания: Отдавай предпочтение теплым, комфортным блюдам — запеченной рыбе или птице с овощами, теплым салатам, окутывающим супам.</li>
+        <li>Зеленый акцент: Добавляй свежую зелень и любимые овощи к приемам пищи. Это простая забота о твоей микробиоте и естественный источник легкой клетчатки.</li>
       </ul>
     </section>
     <section class="article-page__section">
       <h3>ПЕРЕКУСЫ: ЧУВСТВИТЕЛЬНАЯ НАСТРОЙКА СЫТОСТИ</h3>
-      <p>Перекус — это гибкий инструмент. Если твои задачи требуют больше энергии или пауза между основными приёмами пищи превышает несколько часов, добавь комфортный промежуточный блок.</p>
-      <h4>ВЫБИРАЙ ТО, ЧТО ДАЁТ ДОЛГОСРОЧНЫЙ РЕСУРС</h4>
+      <p>Перекус — это гибкий инструмент. Если твои задачи требуют больше энергии или паузы между основными приемами пищи превышают 4–5 часов, ты всегда можешь добавить комфортный промежуточный блок.</p>
+      <h4>ВЫБИРАЕМ ТО, ЧТО ДАЕТ ДОЛГОСРОЧНЫЙ РЕСУРС</h4>
       <ul>
-        <li>Для сохранения ровной энергии: орехи, фрукты или йогурт.</li>
-        <li>Сладкое и мучное не требуется запрещать: важно найти подходящее тебе количество.</li>
-        <li>Для плавного и устойчивого насыщения сочетай белок, клетчатку и немного жиров.</li>
+        <li>Для сохранения ровной энергии: Отдавай преимущество белково-жировым сочетаниям и клетчатке. Сладкие и мучные перекусы дают быстрый подъем, за которым часто следует резкое ощущение усталости.</li>
+        <li>Для плавного и устойчивого насыщения: Выбирай цельные комбинации продуктов.</li>
       </ul>
       <div class="article-page__table-wrap">
         <table class="article-page__table article-page__table--two">
@@ -127,15 +136,15 @@
           <tbody>
             <tr>
               <td>Горсть любимых орехов</td>
-              <td>Хумус с овощами или цельнозерновыми хлебцами</td>
+              <td>Хумус + свежие овощные палочки (морковь, огурец, сельдерей)</td>
             </tr>
             <tr>
               <td>Небольшая порция качественного творога</td>
-              <td>Цельнозерновой тост с творожным сыром и зеленью</td>
+              <td>Цельнозерновой тост + творожный сыр + зелень</td>
             </tr>
             <tr>
-              <td>Кислые ягоды или фрукт</td>
-              <td>Авокадо-тост или мини-сэндвич</td>
+              <td>Кислые ягоды или фрукт (150–200 г)</td>
+              <td>Авокадо-тост или цельнозерновой лаваш с овощами и зеленью</td>
             </tr>
           </tbody>
         </table>
@@ -143,8 +152,8 @@
     </section>
     <section class="article-page__section">
       <h3>ПРИМЕР МЕНЮ НА НЕДЕЛЮ</h3>
-      <p>Используй эту сетку как ориентир: ты можешь менять продукты и блюда местами, сохраняя понятную структуру питания.</p>
-      <div class="article-page__table-wrap article-page__table-wrap--week">
+      <p>Используй эту сетку как ориентал — твою наглядную опору для того, чтобы легко сочетать продукты в созидательную систему.</p>
+      <div class="article-page__table-wrap article-page__table-wrap--week mobile-scroll-table">
         <table class="article-page__table article-page__table--week" aria-label="Пример меню на неделю">
           <thead>
             <tr>
@@ -164,7 +173,7 @@
             <tr>
               <th>ВТ</th>
               <td>Сырники с ягодами и натуральным йогуртом</td>
-              <td>Лапша удон с курицей, вешенками и зелёным луком</td>
+              <td>Лапша удон с курицей, вешенками и зеленым луком</td>
               <td>Запеканка из брокколи и цветной капусты</td>
             </tr>
             <tr>
@@ -177,25 +186,25 @@
               <th>ЧТ</th>
               <td>Гречка с орехами и маслом гхи</td>
               <td>Спагетти карбонара с красным луком и свежим салатом</td>
-              <td>Запечённый лосось в медово-горчичном соусе с зелёным салатом</td>
+              <td>Запеченный лосось в медово-горчичном соусе с зеленым салатом</td>
             </tr>
             <tr>
               <th>ПТ</th>
-              <td>Каша с фруктами и орехами</td>
-              <td>Кускус с овощами и рыбой</td>
-              <td>Овощной суп и тост</td>
+              <td>Киноа на кокосовом молоке с ягодами</td>
+              <td>Кускус с креветками и овощами</td>
+              <td>Густой крем-суп из тыквы</td>
             </tr>
             <tr>
               <th>СБ</th>
-              <td>Блинчики из цельнозерновой муки</td>
+              <td>Блинчики из цельнозерновой муки с лососем и зеленью</td>
               <td>Ризотто с шампиньонами</td>
-              <td>Запечённая треска и овощи</td>
+              <td>Запеченная треска с рисом и помидорами черри</td>
             </tr>
             <tr>
               <th>ВС</th>
-              <td>Тост с авокадо, зеленью и яйцом</td>
-              <td>Паста с чечевицей и салатом</td>
-              <td>Омлет с овощами и зеленью</td>
+              <td>Тост с авокадо, зеленью и яйцом-пашот</td>
+              <td>Плотный чечевичный суп с мятой</td>
+              <td>Треска, тушенная с помидорами и зеленью</td>
             </tr>
           </tbody>
         </table>
@@ -203,14 +212,16 @@
     </section>
     <section class="article-page__section article-page__section--last">
       <h3>ОСОЗНАННЫЙ ВЫБОР В ПОЛЬЗУ ЧИСТОГО РЕСУРСА</h3>
-      <p>В концепции VMERU нет плохих продуктов или строгих табу. Есть еда, которая даёт энергию и лёгкость, и есть та, что временно закрывает другие потребности. Осознанность начинается с интереса к себе.</p>
-      <h4>ПРОДУКТЫ, ПРЕОБЛАДАНИЕ КОТОРЫХ СТОИТ ЗАМЕЧАТЬ</h4>
+      <p>В концепции VMERU нет плохих продуктов или строгих табу. Есть еда, которая дает прозрачную энергию, и еда, которая требует от организма больше ресурса на усвоение. Ты самостоятельно регулируешь их присутствие в своей жизни.</p>
+      <h4>ПРОДУКТЫ, ПРЕОБЛАДАНИЕ КОТОРЫХ СТОИТ ЗАМЕЩАТЬ ЦЕЛЬНОЙ ЕДОЙ ДЛЯ СОХРАНЕНИЯ ЯСНОСТИ И СИЛЫ</h4>
       <ul>
-        <li>Сильно переработанные продукты и избыток добавленного сахара.</li>
-        <li>Питание на бегу без внимания к чувству голода и насыщения.</li>
-        <li>Привычка заменять отдых или поддержку едой.</li>
+        <li>Цельнозерновыми альтернативами: вместо изделий из белой муки высшего сорта и ультра обработанных сладостей.</li>
+        <li>Свежим мясом и рыбой: вместо продуктов глубокой промышленной переработки (колбасы, сосиски).</li>
+        <li>Домашними заправками и маслами: вместо готовых соусов со скрытыми сахарами.</li>
+        <li>Цельными крупами долговременной варки: вместо каш быстрого приготовления, потерявших структуру клетчатки.</li>
+        <li>Свежей или мягко приготовленной едой: сохраняя естественную пользу овощей.</li>
       </ul>
-      <p>Твоя система питания — это твой внутренний ритм. Настраивай её под себя, свои интересы и текущий этап жизни.</p>
+      <p>Твоя система питания — это твоя внутренняя автономия. Настраивай её под свой ритм, исследуй, что дает тебе максимальный ресурс, и двигайся в комфортном темпе.</p>
     </section>
   </div>
   <section class="article-page__related" aria-labelledby="article-related-title">
@@ -220,19 +231,19 @@
               <div class="articles-card__heading">
                 <h3><a href="./article.html">ЧЕК-ЛИСТ 10 ПРИЧИН ОТЁКОВ</a></h3>
               </div><img class="articles-card__image" src="./images/instruments-image-1.jpg" alt="" loading="lazy"/>
-              <p class="articles-card__description">Отёки — это не просто эстетический вопрос, а сигнал о внутренних процессах организма.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+              <p class="articles-card__description">Отёки — это не просто эстетический вопрос, а сигнал о внутренних процессах организма. В этом чек-листе...</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
             </article>
             <article class="articles-card">
               <div class="articles-card__heading">
                 <h3><a href="./article.html">ГИД ПО БЕЛКАМ, ЖИРАМ И УГЛЕВОДАМ</a></h3>
               </div><img class="articles-card__image" src="./images/articles-poster-01.jpg" alt="" loading="lazy"/>
-              <p class="articles-card__description">Пять групп продуктов, из которых легко собрать сытный рацион.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+              <p class="articles-card__description">5 главных групп продуктов, из которых легко собирать сытный рацион без подсчета калорий.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
             </article>
             <article class="articles-card">
               <div class="articles-card__heading">
                 <h3><a href="./article.html">КОНСТРУКТОР МЕНЮ</a></h3>
               </div><img class="articles-card__image" src="./images/articles-poster-02.jpg" alt="" loading="lazy"/>
-              <p class="articles-card__description">Удобный конструктор для создания сытного, сбалансированного рациона.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+              <p class="articles-card__description">Эта статья — удобный конструктор. Он поможет тебе легко создавать сытный, сбалансированный рацион, сохраняя твой личный ритм и свободу выбора.</p><a class="articles-card__action" href="./article.html"><span>ЧИТАТЬ ДАЛЬШЕ</span><span class="articles-card__arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
             </article>
     </div><a class="article-page__all" href="./articles.html">ВСЕ СТАТЬИ <span aria-hidden="true">→</span></a>
   </section>
@@ -248,7 +259,7 @@
           <input id="footer-email" type="email" name="email" placeholder="Email" required="required"/>
           <button type="submit" aria-label="Отправить email"><img src="./images/footer-arrow-right.svg" alt=""/></button>
         </form>
-        <div class="footer__socials"><a class="footer__social-label" href="#">МЫ В СОЦСЕТЯХ<img src="./images/footer-arrow-right.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
+        <div class="footer__socials"><a class="footer__social-label" href="#"><span class="footer__social-label-text">МЫ В СОЦСЕТЯХ</span><span class="footer__social-label-arrow"><img src="./images/footer-arrow-right.svg" alt=""/></span></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
       </div><img class="footer__slogan" src="./images/footer-slogon.svg" alt="Начни из той точки, где ты сейчас. Сделай первый шаг"/>
       <nav class="footer__nav" aria-label="Навигация в подвале">
         <div class="footer__nav-group">
@@ -263,6 +274,6 @@
   </div>
 </footer>
     </main>
-    <script defer src="./assets/main-CwSDtOW_.js"></script>
+    <script defer src="./assets/main-Bl5wM9lx.js"></script>
   </body>
 </html>

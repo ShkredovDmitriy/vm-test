@@ -17,7 +17,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     
-    <link rel="stylesheet" href="./assets/main-kHDvCP0b.css">
+    <link rel="stylesheet" href="./assets/main-D2vPtxFg.css">
   </head>
   <body>
     <main class="main">
@@ -25,16 +25,26 @@
 <header class="main-header">
   <div class="main-header__wrapper"><a class="main-header__brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
     <button class="main-header__menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-header-nav"><span></span><span></span><span></span></button>
-    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация"><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
+    <nav class="main-header__nav" id="main-header-nav" aria-label="Основная навигация">
+      <div class="main-header__mobile-top">
+        <button class="main-header__mobile-close" type="button" aria-label="Закрыть меню"></button><a class="main-header__mobile-brand" href="./" aria-label="VMERU — главная"><img src="./images/header-logo.svg" alt="VMERU"/></a>
+      </div><a href="./about.html">ОБО МНЕ</a><a href="./method.html">МЕТОД</a><a href="./articles.html">СТАТЬИ</a>
       <div class="main-header__nav-item"><a href="./bloknot.html" aria-haspopup="true">БЛОКНОТ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Блокнот" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./bloknot.html">О БЛОКНОТЕ</a><a href="./shop.html">ПРОДУКТЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./shop.html" aria-haspopup="true">МАГАЗИН</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Магазин" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./shop.html">БЛОКНОТ</a><a href="./shop.html">КНИГИ</a><a href="./shop.html">ПРОГРАММЫ</a><a href="./shop.html">ГАЙДЫ</a></div>
       </div>
       <div class="main-header__nav-item"><a href="./services.html" aria-haspopup="true">УСЛУГИ</a>
+        <button class="main-header__submenu-toggle" type="button" aria-label="Развернуть раздел Услуги" aria-expanded="false"></button>
         <div class="main-header__dropdown"><a href="./faq.html">ВОПРОС ОТВЕТ</a></div>
+      </div><a href="./club.html">КЛУБ</a>
+      <div class="main-header__mobile-support">
+        <p>ПОДДЕРЖКА</p><a href="./club.html">СООБЩЕСТВО</a><a href="./faq.html">FAQ</a><a href="./contacts.html">КОНТАКТЫ</a><a href="#">ОПЛАТА И ДОСТАВКА</a><a href="#">СОТРУДНИЧЕСТВО</a><a href="./cart.html">КОРЗИНА</a>
       </div>
+      <div class="main-header__mobile-socials"><a class="main-header__social-label" href="#"><span>МЫ В СОЦСЕТЯХ</span><span class="main-header__social-arrow">→</span></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a></div>
     </nav>
     <div class="main-header__actions">
       <button class="main-header__cart-trigger" type="button" aria-label="Корзина" aria-expanded="false" aria-controls="header-cart"><img src="./images/header-bag.svg" alt=""/></button><a href="./account.html" aria-label="Личный кабинет"><img src="./images/header-account.svg" alt=""/></a>
@@ -53,7 +63,7 @@
     <div class="header-cart__items"></div>
     <div class="header-cart__summary">
       <div class="header-cart__summary-line"><span class="header-cart__summary-label">СУММА (0 ПРЕДМЕТОВ)</span><strong class="header-cart__summary-total">$ 0</strong></div>
-      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./shop.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
+      <div class="header-cart__summary-actions"><a class="header-cart__checkout" href="./cart.html"><span>КУПИТЬ</span><span class="header-cart__checkout-arrow"><img src="./images/arrow-right-black-icon.svg" alt=""/></span></a>
         <button class="header-cart__continue" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
       </div>
     </div>
@@ -61,6 +71,18 @@
 </div>
       
 <section class="hero" aria-labelledby="hero-title">
+  <div class="hero__mobile-ticker" aria-hidden="true">
+    <div class="hero__mobile-ticker-track">
+      <div class="hero__mobile-ticker-set"><span>ТЕЛО</span><img src="./images/system-tools.svg" alt=""/><span>РИТМ</span><img src="./images/system-knowledge.svg" alt=""/><span>СОСТОЯНИЕ</span><img src="./images/system-community.svg" alt=""/></div>
+      <div class="hero__mobile-ticker-set"><span>ТЕЛО</span><img src="./images/system-tools.svg" alt=""/><span>РИТМ</span><img src="./images/system-knowledge.svg" alt=""/><span>СОСТОЯНИЕ</span><img src="./images/system-community.svg" alt=""/></div>
+    </div>
+  </div>
+  <div class="hero__swiper swiper" aria-hidden="true">
+    <div class="swiper-wrapper">
+      <div class="hero__slide swiper-slide"></div>
+      <div class="hero__slide swiper-slide"></div>
+    </div>
+  </div>
   <div class="hero__content">
     <h1 class="hero__title" id="hero-title">Твой способ заботиться о себе</h1>
     <p class="hero__description">VMERU - система знаний и практических инструментов, которая легко встраивается в ритм жизни.</p><a class="hero__consultation" href="#consultation"><span>ПРОЙТИ КОНСУЛЬТАЦИЮ</span><span class="hero__consultation-arrow"><img src="./images/hero-arrow.svg" alt=""/></span></a>
@@ -73,35 +95,64 @@
     <p>25+ довольных клиентов</p>
   </div>
   <div class="hero__bottom">
-    <button class="hero__previous" type="button" aria-label="Предыдущий слайд" disabled="disabled"><img src="./images/hero-prev.svg" alt=""/></button><a class="hero__scroll" href="#hero-end"><span>листай дальше</span><img src="./images/hero-next.svg" alt=""/></a>
-  </div><span class="hero__anchor" id="hero-end"></span>
+    <button class="hero__previous" type="button" aria-label="Предыдущий слайд"><img src="./images/hero-prev.svg" alt=""/></button><span class="hero__mobile-scroll-label">листай дальше</span>
+    <button class="hero__next" type="button" aria-label="Следующий слайд"><span>листай дальше</span><img src="./images/hero-next.svg" alt=""/></button>
+  </div>
+  <div class="hero__pagination" aria-label="Слайды"></div><span class="hero__anchor" id="hero-end"></span>
 </section>
       
-<section class="system"><img class="system__ticker" src="./images/system-top-image.png" alt="Тело · Ритм · Состояние"/>
+<section class="system">
+  <div class="system__ticker-wrap">
+    <div class="system__ticker-track"><img class="system__ticker" src="./images/system-top-image.png" alt="Тело · Ритм · Состояние"/><img class="system__ticker" src="./images/system-top-image.png" alt="" aria-hidden="true"/></div>
+  </div>
   <div class="system__intro"><img class="system__logo" src="./images/system-vmeru-logo.png" alt="VMERU"/>
     <h2 class="system__heading">КАК ЭКОСИСТЕМА</h2>
     <p class="system__description">Каждый элемент поддерживает другой и помогает выстроить устойчивый образ жизни.</p>
   </div>
-  <div class="system__cards">
-        <article class="system-card">
-          <h3 class="system-card__title">ЗНАНИЯ</h3><img class="system-card__icon" src="./images/system-knowledge.svg" alt=""/>
-          <p class="system-card__description">Через статьи и экспертные материалы узнавай больше о здоровье и находи решения, подходящие именно тебе</p><a class="system-card__action" href="#"><span>ЧИТАТЬ СТАТЬИ</span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
-        <article class="system-card">
-          <h3 class="system-card__title">ИНСТРУМЕНТЫ</h3><img class="system-card__icon" src="./images/system-tools.svg" alt=""/>
-          <p class="system-card__description">Блокнот, гайды, книги и практические материалы помогут применять знания в повседневной жизни</p><a class="system-card__action" href="#"><span>СМОТРЕТЬ ПРОДУКТЫ</span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
-        <article class="system-card">
-          <h3 class="system-card__title">ИНДИВИДУАЛЬНАЯ РАБОТА</h3><img class="system-card__icon" src="./images/system-personal.svg" alt=""/>
-          <p class="system-card__description">Персональная работа с учетом твоего состояния, целей, ритма жизни и индивидуальных особенностей</p><a class="system-card__action" href="#"><span>УЗНАТЬ ПОДРОБНЕЕ</span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
-        <article class="system-card">
-          <h3 class="system-card__title">СООБЩЕСТВО</h3><img class="system-card__icon" src="./images/system-community.svg" alt=""/>
-          <p class="system-card__description">Пространство для общения, поддержки и обмена опытом с людьми, которым близки ценности VMERU</p><a class="system-card__action" href="#"><span>ПРИСОЕДИНИТЬСЯ</span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article>
+  <div class="system__cards swiper">
+    <div class="system__cards-track swiper-wrapper">
+            <article class="system-card swiper-slide">
+              <div class="system-card__body">
+                <h3 class="system-card__title">ЗНАНИЯ</h3><img class="system-card__icon" src="./images/system-knowledge.svg" alt=""/>
+                <p class="system-card__description"><span class="system-card__description-desktop">Через статьи и экспертные материалы узнавай больше о здоровье и находи решения, подходящие именно тебе</span><span class="system-card__description-mobile">Через статьи и экспертные материалы узнавай больше о себе и здоровье</span></p>
+              </div><a class="system-card__action" href="./articles.html"><span><span class="system-card__action-desktop">ЧИТАТЬ СТАТЬИ</span><span class="system-card__action-mobile">ЧИТАТЬ</span></span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="system-card swiper-slide">
+              <div class="system-card__body">
+                <h3 class="system-card__title">ИНСТРУМЕНТЫ</h3><img class="system-card__icon" src="./images/system-tools.svg" alt=""/>
+                <p class="system-card__description"><span class="system-card__description-desktop">Блокнот, гайды, книги и практические материалы помогут применять знания в повседневной жизни</span><span class="system-card__description-mobile">Блокнот, гайды, книги, которые помогут применять знания в повседневной жизни</span></p>
+              </div><a class="system-card__action" href="./shop.html"><span><span class="system-card__action-desktop">СМОТРЕТЬ ПРОДУКТЫ</span><span class="system-card__action-mobile">СМОТРЕТЬ</span></span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="system-card swiper-slide">
+              <div class="system-card__body">
+                <h3 class="system-card__title">ИНДИВИДУАЛЬНАЯ РАБОТА</h3><img class="system-card__icon" src="./images/system-personal.svg" alt=""/>
+                <p class="system-card__description"><span class="system-card__description-desktop">Персональная работа с учетом твоего состояния, целей, ритма жизни и индивидуальных особенностей</span><span class="system-card__description-mobile">Персональная работа с учетом твоего состояния, целей и ритма жизни</span></p>
+              </div><a class="system-card__action" href="./services.html"><span><span class="system-card__action-desktop">УЗНАТЬ ПОДРОБНЕЕ</span><span class="system-card__action-mobile">УЗНАТЬ</span></span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+            <article class="system-card swiper-slide">
+              <div class="system-card__body">
+                <h3 class="system-card__title">СООБЩЕСТВО</h3><img class="system-card__icon" src="./images/system-community.svg" alt=""/>
+                <p class="system-card__description"><span class="system-card__description-desktop">Пространство для общения, поддержки и обмена опытом с людьми, которым близки ценности VMERU</span><span class="system-card__description-mobile">Пространство для общения, поддержки и обмена опытом</span></p>
+              </div><a class="system-card__action" href="./club.html"><span><span class="system-card__action-desktop">ПРИСОЕДИНИТЬСЯ</span><span class="system-card__action-mobile">ВСТУПИТЬ</span></span><span class="system-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+            </article>
+    </div>
+  </div>
+  <div class="system__navigation">
+    <button class="system__previous" type="button" aria-label="Предыдущая карточка"></button>
+    <div class="system__pagination" aria-label="Карточки системы">
+      <button type="button" aria-label="Карточки 1 и 2"></button>
+      <button type="button" aria-label="Карточки 2 и 3"></button>
+      <button type="button" aria-label="Карточки 3 и 4"></button>
+    </div>
+    <button class="system__next" type="button" aria-label="Следующая карточка"></button>
   </div>
 </section>
-      
+      <div class="home-story">
+        <div class="home-story__ribbon" aria-hidden="true">
+          <img src="./images/home-ribbon-01.svg" alt="" />
+          <img src="./images/home-ribbon-02.svg" alt="" />
+        </div>
+        
 <section class="leader">
   <div class="leader__heading">
     <h2>КТО СТОИТ ЗА СИСТЕМОЙ</h2><img src="./images/system-vmeru-logo.png" alt="VMERU"/>
@@ -112,10 +163,10 @@
     <p class="leader__note">VMERU родился из поиска баланса, где есть место науке, дисциплине и радости жить в своем ритме.</p><a class="leader__action" href="./about/"><span>МОЙ ПУТЬ И ПОДХОД</span><span class="leader__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
   </div>
   <div class="leader__cloud"><img class="leader__flower" src="./images/system-knowledge.svg" alt=""/><img class="leader__cloud-image" src="./images/leader-descr.png" alt=""/>
-    <p>Я здесь, чтобы помочь тебе найти личную опору в теле и создать систему, которая будет работать на тебя</p>
+    <p>Я здесь, чтобы<br/>помочь тебе найти<br/>личную опору в теле<br/>и создать систему,<br/>которая будет<br/>работать на тебя</p>
   </div>
 </section>
-      
+        
 <section class="constructor" aria-labelledby="constructor-title">
   <div class="constructor__intro">
     <h2 id="constructor-title">БЛОКНОТ - КОНСТРУКТОР</h2><img class="constructor__logo" src="./images/system-vmeru-logo.png" alt="VMERU"/>
@@ -128,50 +179,58 @@
         <article class="constructor-card">
           <div class="constructor-card__visual"><img class="constructor-card__image" src="./images/constructor-stickers.png" alt="НАКЛЕЙКИ VMERU ЦИТАТЫ" loading="lazy"/><span class="constructor-card__badge">new</span><a class="constructor-card__open" href="./images/constructor-stickers.png" target="_blank" rel="noopener" aria-label="Открыть НАКЛЕЙКИ VMERU ЦИТАТЫ крупно"><img src="./images/constructor-plus.svg" alt=""/></a></div>
           <div class="constructor-card__footer">
-            <h3>НАКЛЕЙКИ VMERU ЦИТАТЫ</h3>
+            <h3><span class="constructor-card__desktop-title">НАКЛЕЙКИ VMERU ЦИТАТЫ</span><span class="constructor-card__mobile-title">ОБЛОЖКА</span></h3>
             <button class="constructor-card__bookmark" type="button" aria-label="Сохранить НАКЛЕЙКИ VMERU ЦИТАТЫ" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
           </div>
         </article>
         <article class="constructor-card">
           <div class="constructor-card__visual"><img class="constructor-card__image" src="./images/constructor-goals.png" alt="ПЛАНИРОВЩИК ЦЕЛЕЙ" loading="lazy"/><span class="constructor-card__badge">new</span><a class="constructor-card__open" href="./images/constructor-goals.png" target="_blank" rel="noopener" aria-label="Открыть ПЛАНИРОВЩИК ЦЕЛЕЙ крупно"><img src="./images/constructor-plus.svg" alt=""/></a></div>
           <div class="constructor-card__footer">
-            <h3>ПЛАНИРОВЩИК ЦЕЛЕЙ</h3>
+            <h3><span class="constructor-card__desktop-title">ПЛАНИРОВЩИК ЦЕЛЕЙ</span><span class="constructor-card__mobile-title">ПЛАНИРОВЩИК ЦЕЛЕЙ</span></h3>
             <button class="constructor-card__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК ЦЕЛЕЙ" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
           </div>
         </article>
         <article class="constructor-card">
           <div class="constructor-card__visual"><img class="constructor-card__image" src="./images/constructor-month-a.png" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/><span class="constructor-card__badge">new</span><a class="constructor-card__open" href="./images/constructor-month-a.png" target="_blank" rel="noopener" aria-label="Открыть ПЛАНИРОВЩИК МЕСЯЦА крупно"><img src="./images/constructor-plus.svg" alt=""/></a></div>
           <div class="constructor-card__footer">
-            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <h3><span class="constructor-card__desktop-title">ПЛАНИРОВЩИК МЕСЯЦА</span><span class="constructor-card__mobile-title">ПЛАНИРОВЩИК МЕСЯЦА</span></h3>
             <button class="constructor-card__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
           </div>
         </article>
         <article class="constructor-card">
           <div class="constructor-card__visual"><img class="constructor-card__image" src="./images/constructor-month-b.png" alt="ПЛАНИРОВЩИК МЕСЯЦА" loading="lazy"/><span class="constructor-card__badge">new</span><a class="constructor-card__open" href="./images/constructor-month-b.png" target="_blank" rel="noopener" aria-label="Открыть ПЛАНИРОВЩИК МЕСЯЦА крупно"><img src="./images/constructor-plus.svg" alt=""/></a></div>
           <div class="constructor-card__footer">
-            <h3>ПЛАНИРОВЩИК МЕСЯЦА</h3>
+            <h3><span class="constructor-card__desktop-title">ПЛАНИРОВЩИК МЕСЯЦА</span><span class="constructor-card__mobile-title">ПЛАНИРОВЩИК МЕСЯЦА</span></h3>
             <button class="constructor-card__bookmark" type="button" aria-label="Сохранить ПЛАНИРОВЩИК МЕСЯЦА" aria-pressed="false"><img src="./images/constructor-bookmark.svg" alt=""/></button>
           </div>
         </article>
   </div>
 </section>
+      </div>
       
 <section class="format" aria-labelledby="format-title">
   <h2 class="format__heading" id="format-title">ФОРМАТЫ РАБОТЫ</h2>
-  <p class="format__description">Персональный маршрут восстановления с опорой на тело, ритм и реальные условия жизни.</p>
-  <div class="format__cards">
-        <article class="format-card">
-          <h3 class="format-card__title">КОНСУЛЬТАЦИЯ ЗНАКОМСТВО</h3><img class="format-card__image" src="./images/format-image-1.jpg" alt="" loading="lazy"/>
+  <p class="format__description">Персональный маршрут восстановления с опорой на&nbsp;тело, ритм и реальные условия жизни.</p>
+  <div class="format__cards swiper">
+    <div class="swiper-wrapper format__track">
+        <article class="format-card swiper-slide">
+          <h3 class="format-card__title"><span class="format-card__title-text">КОНСУЛЬТАЦИЯ ЗНАКОМСТВО</span></h3><img class="format-card__image" src="./images/format-image-1.jpg" alt="" loading="lazy"/>
           <p class="format-card__description">Диагностика запроса. Определим приоритеты, наметим вектор работы и сделаем первые шаги к ресурсному состоянию.</p><a class="format-card__action" href="#footer-email"><span>ОСТАВИТЬ ЗАЯВКУ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
         </article>
-        <article class="format-card">
-          <h3 class="format-card__title">СОПРОВОЖДЕНИЕ</h3><img class="format-card__image" src="./images/format-image-2.jpg" alt="" loading="lazy"/>
+        <article class="format-card swiper-slide">
+          <h3 class="format-card__title"><span class="format-card__title-text">СОПРОВОЖДЕНИЕ</span></h3><img class="format-card__image" src="./images/format-image-2.jpg" alt="" loading="lazy"/>
           <p class="format-card__description">Создаем устойчивую систему привычек и рутину, которая работает в долгосрочной перспективе.</p><a class="format-card__action" href="#footer-email"><span>УЗНАТЬ ПОДРОБНЕЕ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
         </article>
-        <article class="format-card">
-          <h3 class="format-card__title">ПРОГРАММЫ</h3><img class="format-card__image" src="./images/format-image-3.jpg" alt="" loading="lazy"/>
+        <article class="format-card swiper-slide">
+          <h3 class="format-card__title"><span class="format-card__title-text">ПРОГРАММЫ</span></h3><img class="format-card__image" src="./images/format-image-3.jpg" alt="" loading="lazy"/>
           <p class="format-card__description">Пошаговые алгоритмы для самостоятельной или групповой работы.</p><a class="format-card__action" href="#footer-email"><span>ВЫБРАТЬ ПРОГРАММУ</span><span class="format-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
         </article>
+    </div>
+  </div>
+  <div class="format__controls">
+    <button class="format__previous" type="button" aria-label="Предыдущий формат работы"><img src="./images/system-arrow.svg" alt=""/></button>
+    <div class="format__pagination" aria-label="Слайды форматов работы"></div>
+    <button class="format__next" type="button" aria-label="Следующий формат работы"><img src="./images/system-arrow.svg" alt=""/></button>
   </div>
 </section>
       
@@ -183,31 +242,31 @@
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Надежно, прозрачно и очень эффективно работа с Китаем стала простой.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>ALINA STONT</cite>
+                    <cite><span class="main-you__review-author-desktop">ALINA STONT</span><span class="main-you__review-author-mobile">Алина Стонт</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Надежно, прозрачно и очень эффективно работа с Китаем стала простой.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>DANIEL CARTER</cite>
+                    <cite><span class="main-you__review-author-desktop">DANIEL CARTER</span><span class="main-you__review-author-mobile">Алина Стонт</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">Они сэкономили нам недели и снизили затраты, всё прошло идеально.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>SARAH MITCHELL</cite>
+                    <cite><span class="main-you__review-author-desktop">SARAH MITCHELL</span><span class="main-you__review-author-mobile">SARAH MITCHELL</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Полностью взяли процесс на себя и избавили нас от лишних расходов.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>MICHAEL CHEN</cite>
+                    <cite><span class="main-you__review-author-desktop">MICHAEL CHEN</span><span class="main-you__review-author-mobile">MICHAEL CHEN</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Полностью взяли процесс на себя и избавили нас от лишних расходов.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>MICHAEL CHEN</cite>
+                    <cite><span class="main-you__review-author-desktop">MICHAEL CHEN</span><span class="main-you__review-author-mobile">MICHAEL CHEN</span></cite>
                   </footer>
                 </blockquote>
           </div>
@@ -215,31 +274,31 @@
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Надежно, прозрачно и очень эффективно работа с Китаем стала простой.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>ALINA STONT</cite>
+                    <cite><span class="main-you__review-author-desktop">ALINA STONT</span><span class="main-you__review-author-mobile">Алина Стонт</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Надежно, прозрачно и очень эффективно работа с Китаем стала простой.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>DANIEL CARTER</cite>
+                    <cite><span class="main-you__review-author-desktop">DANIEL CARTER</span><span class="main-you__review-author-mobile">Алина Стонт</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">Они сэкономили нам недели и снизили затраты, всё прошло идеально.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>SARAH MITCHELL</cite>
+                    <cite><span class="main-you__review-author-desktop">SARAH MITCHELL</span><span class="main-you__review-author-mobile">SARAH MITCHELL</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Полностью взяли процесс на себя и избавили нас от лишних расходов.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>MICHAEL CHEN</cite>
+                    <cite><span class="main-you__review-author-desktop">MICHAEL CHEN</span><span class="main-you__review-author-mobile">MICHAEL CHEN</span></cite>
                   </footer>
                 </blockquote>
                 <blockquote class="main-you__review">
                   <p class="main-you__review-quote">“Полностью взяли процесс на себя и избавили нас от лишних расходов.”</p>
                   <footer class="main-you__review-author"><img src="./images/main-you-avatar.png" alt="" loading="lazy"/>
-                    <cite>MICHAEL CHEN</cite>
+                    <cite><span class="main-you__review-author-desktop">MICHAEL CHEN</span><span class="main-you__review-author-mobile">MICHAEL CHEN</span></cite>
                   </footer>
                 </blockquote>
           </div>
@@ -249,7 +308,7 @@
       
 <section class="instruments" aria-labelledby="instruments-title">
   <h2 class="instruments__title" id="instruments-title">ИНСТРУМЕНТЫ ДЛЯ<br>САМОСТОЯТЕЛЬНОЙ РАБОТЫ</h2>
-  <p class="instruments__intro">Знания и практики, которые помогут понять свои потребности и выстроить подходящий ритм жизни.</p>
+  <p class="instruments__intro"><span class="instruments__intro-desktop">Знания и практики, которые помогут понять свои потребности и выстроить подходящий ритм жизни.</span><span class="instruments__intro-mobile">Ресурсы, которые помогают двигаться к здоровью через ясность и последовательность.</span></p>
   <div class="swiper instruments__swiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide instruments__slide">
@@ -270,7 +329,7 @@
               <p class="instrument-card__description">Рецепты твоей бодрости и баланса</p><a class="instrument-card__action" href="#footer-email"><span>ХОЧУ МЕНЮ</span><span class="instrument-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
             </article>
         </div>
-        <div class="swiper-slide instruments__slide">
+        <div class="swiper-slide instruments__slide instruments__slide--second">
             <article class="instrument-card">
               <h3 class="instrument-card__title">ГАЙД-СИСТЕМА «АРХИТЕКТУРА СНА»</h3>
               <p class="instrument-card__description">Настрой главный источник своего ресурса.</p><a class="instrument-card__action" href="#footer-email"><span>КУПИТЬ</span><span class="instrument-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
@@ -305,22 +364,26 @@
   <div class="start__items">
         <article class="start-card start-card--tracker">
           <h3 class="start-card__title">ТРЕКЕР ПРИВЫЧЕК</h3>
-          <p class="start-card__description">Скачай красивый и универсальный трекер и начинай уже сегодня</p><a class="start-card__action" href="#footer-email"><span>ПОЛУЧИТЬ</span><span class="start-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+          <p class="start-card__description">Скачай красивый<br/>и универсальный<br/>трекер и начинай уже<br/>сегодня
+          </p><a class="start-card__action" href="#footer-email"><span>ПОЛУЧИТЬ</span><span class="start-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
         </article>
     <figure class="start__photo start__photo--notebook"><img src="./images/start-image-1.png" alt="Блокнот и желтые цветы" loading="lazy"/>
       <figcaption class="start__photo-caption">Дай себе пространство начать — остальное выстроится постепенно.</figcaption>
     </figure>
         <article class="start-card start-card--gym">
           <h3 class="start-card__title">ГИМНАСТИКА ДЛЯ ЖКТ</h3>
-          <p class="start-card__description">Забирай 8 простых упражнений для улучшения пищеварения</p><a class="start-card__action" href="#footer-email"><span>ПОЛУЧИТЬ</span><span class="start-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+          <p class="start-card__description">Забирай 8 простых<br/>упражнений для<br/>улучшения пищеварения
+          </p><a class="start-card__action" href="#footer-email"><span>ПОЛУЧИТЬ</span><span class="start-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
         </article>
     <figure class="start__photo start__photo--woman"><img src="./images/start-image-2.png" alt="Александра делает легкую разминку" loading="lazy"/>
-      <figcaption class="start__photo-caption">Начни из той точки, где ты сейчас. Твоего ресурса уже достаточно, чтобы сделать первый шаг.</figcaption>
+      <figcaption class="start__photo-caption">Начни из той точки, где ты сейчас. <br>Твоего ресурса уже достаточно, чтобы сделать первый шаг.</figcaption>
     </figure>
         <article class="start-card start-card--swelling">
           <h3 class="start-card__title">10 ПРИЧИН ОТЕКОВ</h3>
-          <p class="start-card__description">Получи материалы и начните выстраивать свою систему.</p><a class="start-card__action" href="#footer-email"><span>ПОЛУЧИТЬ</span><span class="start-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
-        </article><img class="start__flower" src="./images/system-knowledge.svg" alt="" aria-hidden="true"/><img class="start__coral" src="./images/system-community.svg" alt="" aria-hidden="true"/>
+          <p class="start-card__description">Получи материалы<br/>и начни выстраивать<br/>свою систему.
+          </p><a class="start-card__action" href="#footer-email"><span>ПОЛУЧИТЬ</span><span class="start-card__action-arrow"><img src="./images/system-arrow.svg" alt=""/></span></a>
+        </article>
+    <p class="start__photo-caption start__photo-caption--mobile">Дай себе пространство начать — остальное выстроится постепенно.</p><img class="start__flower" src="./images/system-knowledge.svg" alt="" aria-hidden="true"/><img class="start__coral" src="./images/system-community.svg" alt="" aria-hidden="true"/>
   </div>
 </section>
       
@@ -334,7 +397,7 @@
           <input id="footer-email" type="email" name="email" placeholder="Email" required="required"/>
           <button type="submit" aria-label="Отправить email"><img src="./images/footer-arrow-right.svg" alt=""/></button>
         </form>
-        <div class="footer__socials"><a class="footer__social-label" href="#">МЫ В СОЦСЕТЯХ<img src="./images/footer-arrow-right.svg" alt=""/></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
+        <div class="footer__socials"><a class="footer__social-label" href="#"><span class="footer__social-label-text">МЫ В СОЦСЕТЯХ</span><span class="footer__social-label-arrow"><img src="./images/footer-arrow-right.svg" alt=""/></span></a><a href="#" aria-label="Telegram"><img src="./images/footer-telegram-icon.svg" alt=""/></a><a href="#" aria-label="Instagram"><img src="./images/footer-instagram-icon.svg" alt=""/></a></div>
       </div><img class="footer__slogan" src="./images/footer-slogon.svg" alt="Начни из той точки, где ты сейчас. Сделай первый шаг"/>
       <nav class="footer__nav" aria-label="Навигация в подвале">
         <div class="footer__nav-group">
@@ -350,6 +413,6 @@
 </footer>
     </main>
 
-    <script defer src="./assets/main-CwSDtOW_.js"></script>
+    <script defer src="./assets/main-Bl5wM9lx.js"></script>
   </body>
 </html>
